@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="409.0" prefWidth="491.0" style="-fx-background-color: gray;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="program3.Controller.Program3Controller">
+   <children>
+      <Label layoutX="21.0" layoutY="14.0" text="Production Staff Incentive Salary">
+         <font>
+            <Font name="Sitka Text" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="288.0" text="Incentive">
+         <font>
+            <Font name="Sitka Text" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="446.0" layoutY="159.0" text="³">
+         <font>
+            <Font name="Sitka Text" size="24.0" />
+         </font>
+      </Label>
+      <Separator layoutY="236.0" prefHeight="4.0" prefWidth="491.0" style="-fx-background-color: gold;" />
+      <Label layoutX="17.0" layoutY="118.0" text="UMR">
+         <font>
+            <Font name="Sitka Text" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="13.0" layoutY="173.0" text="Produce">
+         <font>
+            <Font name="Sitka Text" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="Calculate_Button" layoutX="17.0" layoutY="348.0" mnemonicParsing="false" onAction="#Calculate_Button_Click" style="-fx-background-color: green; -fx-cursor: hand;" text="Calculate">
+         <font>
+            <Font name="Sitka Text" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="Reset_Button" layoutX="203.0" layoutY="348.0" mnemonicParsing="false" onAction="#Reset_Button_Click" style="-fx-background-color: orange; -fx-cursor: hand;" text="Reset">
+         <font>
+            <Font name="Sitka Text" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="Quick_Button" layoutX="390.0" layoutY="348.0" mnemonicParsing="false" onAction="#Quit_Button_Click" style="-fx-background-color: red; -fx-cursor: hand;" text="Quit">
+         <font>
+            <Font name="Sitka Text" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="110.0" layoutY="47.0" text="Concrete Company">
+         <font>
+            <Font name="Sitka Text" size="29.0" />
+         </font>
+      </Label>
+      <TextField fx:id="UMR_Text" layoutX="119.0" layoutY="120.0" prefHeight="25.0" prefWidth="324.0" style="-fx-cursor: text;" />
+      <TextField fx:id="Produce_Text" layoutX="119.0" layoutY="175.0" prefHeight="25.0" prefWidth="324.0" style="-fx-cursor: Text;" />
+      <TextField fx:id="Incentive_Text" editable="false" layoutX="129.0" layoutY="290.0" prefHeight="25.0" prefWidth="324.0" />
+   </children>
+</AnchorPane>
